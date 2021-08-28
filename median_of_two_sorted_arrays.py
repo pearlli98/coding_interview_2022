@@ -1,6 +1,6 @@
 import math
 
-#题目：https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/
+#题目：https://leetcode.com/problems/median-of-two-sorted-arrays/
 #解1：binary search找合并后array的左半边的最后一个数
 # https://atharayil.medium.com/median-of-two-sorted-arrays-day-36-python-fcbd2dbbb668
 #解2: 找两个array的第k个数
