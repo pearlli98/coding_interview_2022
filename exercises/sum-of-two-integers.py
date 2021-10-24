@@ -1,9 +1,9 @@
-question:https://leetcode.com/problems/sum-of-two-integers/solution/
+# question:https://leetcode.com/problems/sum-of-two-integers/solution/
 
-sol: bitwise operations 
-x Xor y is sum of two binary without carry and diff of two binary without borrow
-carry is x and y shifted to left
-borrow is (not x) and y shifted to left
+# sol: bitwise operations 
+# x Xor y is sum of two binary without carry and diff of two binary without borrow
+# carry is x and y shifted to left
+# borrow is (not x) and y shifted to left
 
 class Solution(object):
     def getSum(self, a, b):

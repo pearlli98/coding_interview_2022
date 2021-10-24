@@ -1,6 +1,6 @@
-question: https://leetcode.com/problems/3sum-smaller/solution/
+# question: https://leetcode.com/problems/3sum-smaller/solution/
 
-sol: two pointer
+# sol: two pointer
 
 class Solution(object):
     def threeSumSmaller(self, nums, target):

@@ -1,8 +1,8 @@
-question: https://leetcode.com/problems/decode-ways/submissions/
+# question: https://leetcode.com/problems/decode-ways/submissions/
 
-sol:
-dp[i] = number of ways to decode s[:i]
-just like climbing stairs, dp[i] = dp[i-1] + dp[i-2] but need to check whether the strings are valid
+# sol:
+# dp[i] = number of ways to decode s[:i]
+# just like climbing stairs, dp[i] = dp[i-1] + dp[i-2] but need to check whether the strings are valid
 
 class Solution:
     def numDecodings(self, s: str) -> int:
