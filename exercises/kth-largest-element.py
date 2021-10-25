@@ -8,6 +8,7 @@ class Solution:
     
             cur = left
             for i in range(left, right):
+                #找到比pivot小的数，移到左边，keep track of how many with cur! 
                 if nums[i] < nums[right]:
                     nums[cur], nums[i] = nums[i], nums[cur]
                     cur += 1
